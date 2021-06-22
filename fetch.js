@@ -19,7 +19,6 @@ function callApiWithToken(endpoint, token, callback) {
             logMessage('Web API responds:');
             logMessage(response);
             console.log(response);
-            console.log(System.TeamFoundationCollectionUri);
         }).catch(error => {
             console.error(error);
         });

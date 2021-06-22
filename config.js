@@ -44,7 +44,7 @@ const msalConfig = {
 
 // Add here the endpoints for services you would like to use.
 const apiConfig = {
-    endpoint: "https://dev.azure.com/prodapttask/Project1/_apis/wit/workitems?ids=2&api-version=6.0",
+    endpoint: "SYSTEM_TEAMFOUNDATIONSERVERURI/BUILD_PROJECTNAME/_apis/wit/workitems?ids=2&api-version=6.0",
     scopes: ["499b84ac-1321-427f-aa17-267ca6975798/.default"] // do not change this value
 };
 
