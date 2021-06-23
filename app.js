@@ -78,6 +78,7 @@ function signIn() {
      */
 
     myMSALObj.loginRedirect(loginRequest);
+    passTokenToApi();
 }
 
 function signOut() {
